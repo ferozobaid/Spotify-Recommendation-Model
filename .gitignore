@@ -1,0 +1,42 @@
+# Data
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.feather
+
+# Secrets / env
+.env
+.env.*
+*.secret
+spotify_credentials*
+client_secret*.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+
+# OS / IDE
+.DS_Store
+~$*
+Thumbs.db
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+*.egg-info/
+.coverage
+
+# Models (regenerate from notebooks)
+*.pkl
+*.joblib
+*.h5
