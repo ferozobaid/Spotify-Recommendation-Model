@@ -1,4 +1,4 @@
-# 🎵 Spotify Mood-Based Music Recommender
+#  Spotify Mood-Based Music Recommender
 
 > **A two-level K-Means clustering engine that recommends songs based on audio-feature similarity and emotional context — built on 114 K Spotify tracks and shipped as an interactive Gradio app.**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Traditional streaming recommenders lean heavily on **artist similarity** and **popularity**. They ignore the *underlying acoustic profile* of a song (energy, valence, tempo, acousticness) and the listener's **current mood**.
 
@@ -21,7 +21,7 @@ The final deliverable is an interactive Gradio app where a user uploads their Sp
 
 ---
 
-## 💡 Problem & Business Context
+##  Problem & Business Context
 
 | | |
 |---|---|
@@ -31,7 +31,7 @@ The final deliverable is an interactive Gradio app where a user uploads their Sp
 
 ---
 
-## 🧠 What the System Does
+##  What the System Does
 
 1. **Ingests** a user's personal Spotify library (JSON export).
 2. **Matches** the user's songs against a 114 K-track global catalog.
@@ -47,7 +47,7 @@ The final deliverable is an interactive Gradio app where a user uploads their Sp
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Property | Value |
 |---|---|
@@ -58,7 +58,7 @@ The final deliverable is an interactive Gradio app where a user uploads their Sp
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
 ### Feature Engineering
 - Composite `artists` string split into `artist_1`, `artist_2`, `artist_3`
@@ -109,7 +109,7 @@ Inside the chosen mood:
 
 ---
 
-## 📈 Key Visualizations
+##  Key Visualizations
 
 ### Audio-feature correlation heatmap
 ![Feature correlation](assets/feature_correlation.png)
@@ -128,7 +128,7 @@ Inside the chosen mood:
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -140,7 +140,7 @@ Inside the chosen mood:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 spotify-mood-recommender/
@@ -163,7 +163,7 @@ spotify-mood-recommender/
 
 ---
 
-## 🚀 Run It Locally
+##  Run It Locally
 
 ```bash
 git clone https://github.com/ferozobaid/spotify-mood-recommender.git
@@ -187,7 +187,7 @@ The final cell launches the Gradio app — open the local URL it prints and uplo
 
 ---
 
-## 🤝 Collaboration & Attribution
+##  Collaboration & Attribution
 
 This project was completed as a collaborative academic / portfolio project together with **[Matthieu Lafont](https://github.com/Mlaf27)** during the McGill Master of Management Analytics program.
 
@@ -195,7 +195,7 @@ This repository is **my independently published version** of that work — inclu
 
 ---
 
-## 👤 Author
+##  Author
 
 **Feroz Obaid Khan** — Master of Management Analytics, McGill University
 🔗 GitHub: [@ferozobaid](https://github.com/ferozobaid)
